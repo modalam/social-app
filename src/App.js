@@ -1,11 +1,17 @@
-import Home from './pages/home/Home';
-// import Person from '@mui/icons-material/Person';
+import Home from '../src/pages/home/Home';
+// import Profile from '../src/pages/profile/Profile';
+// import Login from '../src/pages/login/Login';
+// import Register from '../src/pages/register/Register';
+
 function App()
 {
     return(
         <div>
             <Home />
-            {/* <Person/> */}
+           
+            {/* <Profile /> */}
+            {/* <Login /> */}
+            {/* <Register /> */}
         </div>
     )
 }

@@ -5,7 +5,7 @@ import Topbar from '../../components/topbar/Topbar'
 import './home.css';
 export default function Home() {
   return (
-    <div>
+    <>
         <Topbar />
         <div className='homeContainer'>
             <Sidebar />
@@ -13,7 +13,7 @@ export default function Home() {
             <Rightbar />
         </div>
         
-    </div>
+    </>
   )
 }
 
